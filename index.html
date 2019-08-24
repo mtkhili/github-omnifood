@@ -379,20 +379,6 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
                 -->
                 <form method="post" action="mailer.php" class="contact-form">
                     <div class="row">
-
-                        <?php
-                            if ($_GET['success'] == 1){
-                                echo "<div class=\"form-messages success\">Thank you! your message has been sent.</div>"
-                            }
-
-                            if ($_GET['success'] == -1){
-                                echo "<div class=\"form-messages error\">Oups! something's wrong. Please try again!</div>"
-                            }
-                        ?>
-
-                    </div>
-
-                    <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
                         </div>
